@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="docs/architecture.md" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/ProdTracker.Api/ProdTracker.Api.csproj" />
+    <Project Path="src/ProdTracker.Application/ProdTracker.Application.csproj" />
+    <Project Path="src/ProdTracker.Domain/ProdTracker.Domain.csproj" />
+    <Project Path="src/ProdTracker.Infrastructure/ProdTracker.Infrastructure.csproj" />
+    <Project Path="src/ProdTracker.Ui/ProdTracker.Ui.csproj" />
+  </Folder>
+</Solution>
