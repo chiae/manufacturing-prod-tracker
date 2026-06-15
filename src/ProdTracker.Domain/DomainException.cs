@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProdTracker.Domain;
 
+// Domain custom exception
 public class DomainException : Exception
 {
     public DomainException(string message):base(message)
