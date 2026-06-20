@@ -10,7 +10,7 @@ namespace ProdTracker.Domain.Interfaces;
 
 public interface IProductionOrderRepository
 {
-    Task<ProductionOrder?> GetByIdAsync(Guid id);
+    Task<ProductionOrder?> GetByIdAsync(Guid id, CancellationToken ct);
     Task AddAsync(ProductionOrder order);
     Task SaveChangesAsync();
 }
